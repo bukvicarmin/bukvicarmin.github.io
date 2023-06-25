@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gyaaaaaaa</title>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="nav">
+            <p>logo</p>
+            <div class="nav-wrapper">
+                <div class="hamburger-menu-opener">
+                    <svg class="hamburger-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                      </svg>
+                </div>
+                <div class="hamburger-menu-content">
+                    <div class="nav-items">
+                        <div class="search">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="search"><rect width="24" height="24" opacity="0"/><path d="M20.71 19.29l-3.4-3.39A7.92 7.92 0 0 0 19 11a8 8 0 1 0-8 8 7.92 7.92 0 0 0 4.9-1.69l3.39 3.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42zM5 11a6 6 0 1 1 6 6 6 6 0 0 1-6-6z"/></g></g></svg>
+                            <input type="text" name="search" class="search_input" placeholder="SEARCH SHOP">
+                        </div>
+                        <ul class="nav-links">
+                            <li>
+                                <a href="#">HOME</a>
+                            </li>
+                            <li><a href="#">SHOP</a></li>
+                            <li><a href="#box">BOX</a></li>
+                            <li><a href="#">BLOG</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                        </ul>
+                    </div>
+                    <div class="login-register">
+                        <a href="#" class="login button">Login</a>
+                        <a href="#" class="register button">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+            <section class="hero">
+                <div class="hero-bgc"></div>
+                <div class="hero-textbox">
+                    <h1 class="hero-heading">Get a taste of Japan delivered straight to your door.</h1>
+                    <p class="hero-text">Satisfy your Japanese soft drink and candy cravings with our delivery service.From traditional matcha Kit Kats to refreshing Ramune soda, we offer a wide variety of treats for all taste buds.</p>
+                    <button class="button">Start exploring</button>
+                    <div class="testimonial-container">
+                        <div class="testimonial-faces">
+                            <img class="testimonial-face-img" src="src/faces/1.jpg" alt="">
+                            <img class="testimonial-face-img" src="src/faces/2.jpg" alt="">
+                            <img class="testimonial-face-img" src="src/faces/3.jpg" alt="">
+                            <img class="testimonial-face-img" src="src/faces/4.jpg" alt="">
+                            <img class="testimonial-face-img" src="src/faces/5.jpg" alt="">
+                        </div>
+                        <div class="testimonial-text"><span class="testimonial-bold">15,000+</span> ordered already!</div>
+                    </div>
+                </div>
+            </section>
+            <div class="container section-latest">
+                <h2 class="section-heading">LATEST NEWS</h2>
+                <div class="latest-container grid grid-2">
+                    <div class="slider">
+                        <div class="slide">
+                            <img class="news-slider-img" src="src/slider/slider1.png" alt="">
+                            <div class="layout-text">VIEW ARTICLE</div>
+                        </div>
+                        <div class="slide"><img class="news-slider-img" src="src/slider/slider2.png" alt=""></div>
+                        <button class="btn btn-next"> > </button>
+                        <button class="btn btn-prev"> < </button>
+                        <div id="progress-line"></div>
+                      </div>
+                    <div class="top-sellers">
+                        <p class="subheading">TOP SELLERS</p>
+                        <div class="top-seller-products">
+                            <div class="top-seller">
+                                <img class="product-image" src="src/products/1.jpeg" alt="">
+                                <div class="product-details">
+                                    <p class="product-name">Shirakiku Ramune</p>
+                                    <p class="product-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, iure? Lorem ipsum dolor sit amet consectetur...</p>
+                                </div>
+                                <div class="product-price">
+                                    <p class="product-price-text">2,99$</p>
+                                    <ion-icon class="product-cart-icon" name="cart-outline"></ion-icon>
+                                </div>
+                            </div>
+                            <div class="top-seller">
+                                <img class="product-image" src="src/products/2.jpeg" alt="">
+                                <div class="product-details">
+                                    <p class="product-name">Hatakosen Ramune</p>
+                                    <p class="product-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, iure? Lorem ipsum dolor sit amet consectetur...</p>
+                                </div>
+                                <div class="product-price">
+                                    <p class="product-price-text">3,19$</p>
+                                    <ion-icon class="product-cart-icon" name="cart-outline"></ion-icon>
+                                </div>
+                            </div>
+                            <div class="top-seller">
+                                <img class="product-image" src="src/products/3.jpeg" alt="">
+                                <div class="product-details">
+                                    <p class="product-name">Sangaria Peach</p>
+                                    <p class="product-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, iure? Lorem ipsum dolor sit amet consectetur...</p>
+                                </div>
+                                <div class="product-price">
+                                    <p class="product-price-text">3,99$</p>
+                                    <ion-icon class="product-cart-icon" name="cart-outline"></ion-icon>
+                                </div>
+                            </div>
+                            <p class="product-show-more">Show more &darr;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="section-testimonials">
+                <h2 class="section-heading container">TESTIMONIALS</h2>
+                <div class="testimonials-container">
+                    <div class="testimonials-scroll">
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/1.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">James Anderson</p>
+                                    <p class="user-tag">@TechNinjaJames</p>
+                                </div>
+                            </div>
+                            <p class="user-review">A fantastic online store with a wide range of Japanese candy and soda. The variety is impressive!</p>
+                            <p class="review-date">8:30 PM - Nov 5, 2058</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/2.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Benjamin Knight</p>
+                                    <p class="user-tag">@BennyWise</p>
+                                </div>
+                            </div>
+                            <p class="user-review">Love the convenience of shopping for Japanese candy and soda online.</p>
+                            <p class="review-date">10:38 PM - Aug 21, 2101</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/3.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Olivia Sinclair</p>
+                                    <p class="user-tag">@LivvySparkles</p>
+                                </div>
+                            </div>
+                            <p class="user-review">Great online store for Japanese candy and soda enthusiasts. The packaging and shipping were excellent.</p>
+                            <p class="review-date">4:24 AM - Mar 24, 2024</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/4.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Sophia Reynolds</p>
+                                    <p class="user-tag">@SofiaInWonderland</p>
+                                </div>
+                            </div>
+                            <p class="user-review">The monthly subscription box is a delightful surprise, but don't miss out on their standalone candy and soda offerings</p>
+                            <p class="review-date">42:11 AM - Jul 42, 1970</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/5.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Ava Fitzgerald</p>
+                                    <p class="user-tag">@Dreamweaver1266</p>
+                                </div>
+                            </div>
+                            <p class="user-review">I am absolutely delighted with my experience at [Your Online Store]. As a Japanese candy and soda enthusiast, I was thrilled to discover such a treasure trove of authentic treats in one place. <span class="review-hash">#gyaaaaa</span></p>
+                            <p class="review-date">6:59 PM - Jun 2, 2044</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/6.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Emma Pierce</p>
+                                    <p class="user-tag">@EmPowerfulMa</p>
+                                </div>
+                            </div>
+                            <p class="user-review">If you're a fan of Japanese sweets, this online store is a must-visit. Yum!</p>
+                            <p class="review-date">9:15 AM - Jan 15, 2023</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/7.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Ethan Steele</p>
+                                    <p class="user-tag">@EpicEthan</p>
+                                </div>
+                            </div>
+                            <p class="user-review">From classic favorites to rare finds, this online store has it all. Highly recommend their subscription box! The shipping was fast too :) <span class="review-hash">#coolstuff</span></p>
+                            <p class="review-date">25:61 AM - Dec 32, 2024</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/8.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Noah Rivers</p>
+                                    <p class="user-tag">@NoahTheExplorer</p>
+                                </div>
+                            </div>
+                            <p class="user-review">I'm obsessed with this store! The Japanese candy and soda selection is unmatched, and their monthly subscription box is a real treat.</p>
+                            <p class="review-date">12:42 AM - Feb 29, 2020</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/1.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">James Anderson</p>
+                                    <p class="user-tag">@TechNinjaJames</p>
+                                </div>
+                            </div>
+                            <p class="user-review">A fantastic online store with a wide range of Japanese candy and soda. The variety is impressive!</p>
+                            <p class="review-date">8:30 PM - Nov 5, 2058</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/2.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Benjamin Knight</p>
+                                    <p class="user-tag">@BennyWise</p>
+                                </div>
+                            </div>
+                            <p class="user-review">Love the convenience of shopping for Japanese candy and soda online.</p>
+                            <p class="review-date">10:38 PM - Aug 21, 2101</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/3.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Olivia Sinclair</p>
+                                    <p class="user-tag">@LivvySparkles</p>
+                                </div>
+                            </div>
+                            <p class="user-review">Great online store for Japanese candy and soda enthusiasts. The packaging and shipping were excellent.</p>
+                            <p class="review-date">4:24 AM - Mar 24, 2024</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/4.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Sophia Reynolds</p>
+                                    <p class="user-tag">@SofiaInWonderland</p>
+                                </div>
+                            </div>
+                            <p class="user-review">The monthly subscription box is a delightful surprise, but don't miss out on their standalone candy and soda offerings</p>
+                            <p class="review-date">42:11 AM - Jul 42, 1970</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/5.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Ava Fitzgerald</p>
+                                    <p class="user-tag">@Dreamweaver1266</p>
+                                </div>
+                            </div>
+                            <p class="user-review">I am absolutely delighted with my experience at [Your Online Store]. As a Japanese candy and soda enthusiast, I was thrilled to discover such a treasure trove of authentic treats in one place. <span class="review-hash">#gyaaaaa</span></p>
+                            <p class="review-date">6:59 PM - Jun 2, 2044</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/6.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Emma Pierce</p>
+                                    <p class="user-tag">@EmPowerfulMa</p>
+                                </div>
+                            </div>
+                            <p class="user-review">If you're a fan of Japanese sweets, this online store is a must-visit. Yum!</p>
+                            <p class="review-date">9:15 AM - Jan 15, 2023</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/7.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Ethan Steele</p>
+                                    <p class="user-tag">@EpicEthan</p>
+                                </div>
+                            </div>
+                            <p class="user-review">From classic favorites to rare finds, this online store has it all. Highly recommend their subscription box! The shipping was fast too :) <span class="review-hash">#coolstuff</span></p>
+                            <p class="review-date">25:61 AM - Dec 32, 2024</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/8.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Noah Rivers</p>
+                                    <p class="user-tag">@NoahTheExplorer</p>
+                                </div>
+                            </div>
+                            <p class="user-review">I'm obsessed with this store! The Japanese candy and soda selection is unmatched, and their monthly subscription box is a real treat.</p>
+                            <p class="review-date">12:42 AM - Feb 29, 2020</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/9.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Sophia Carter</p>
+                                    <p class="user-tag">@SweetToothSophia</p>
+                                </div>
+                            </div>
+                            <p class="user-review">Great serivce.</p>
+                            <p class="review-date">3:12 AM - Oct 19, 2021</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/10.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Benjamin Reed</p>
+                                    <p class="user-tag">@BennyBites</p>
+                                </div>
+                            </div>
+                            <p class="user-review">I stumbled upon this online store and it's a treasure trove for Japanese candy enthusiasts like me. The wide range of flavors and textures, combined with prompt delivery, make it my go-to for satisfying my sweet tooth cravings.</p>
+                            <p class="review-date">2:45 PM - Nov 22, 2021</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/11.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Emma Peterson</p>
+                                    <p class="user-tag">@CandyCraverEmma</p>
+                                </div>
+                            </div>
+                            <p class="user-review">Fast delivery and delicious Japanese sodas. My taste buds are in heaven!</p>
+                            <p class="review-date">9:53 AM - Dec 28, 2026</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/12.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Oliver Collins</p>
+                                    <p class="user-tag">@OllieSweets</p>
+                                </div>
+                            </div>
+                            <p class="user-review">I stumbled upon this online store and it's a treasure trove for Japanese candy enthusiasts like me. The wide range of flavors and textures, combined with prompt delivery, make it my go-to for satisfying my sweet tooth cravings./p>
+                            <p class="review-date">11:09 PM - Jan 02, 2005</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/13.png" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Lucas Anderson</p>
+                                    <p class="user-tag">@LuckyLucas</p>
+                                </div>
+                            </div>
+                            <p class="user-review">This online store is a candy lover's paradise. I'm impressed with their selection.</p>
+                            <p class="review-date">12:42 AM - Feb 29, 2020</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/14.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Ethan Mitchell</p>
+                                    <p class="user-tag">@EpicEaterEthan</p>
+                                </div>
+                            </div>
+                            <p class="user-review">The Japanese candies from this online store are so addictive! I can't get enough of their unique flavors. Highly recommended.</p>
+                            <p class="review-date">12:42 AM - Feb 29, 2020</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/15.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Matthew Baker</p>
+                                    <p class="user-tag">@Munchhew</p>
+                                </div>
+                            </div>
+                            <p class="user-review">I ordered some Japanese sodas, and they arrived perfectly packaged. Great service.</p>
+                            <p class="review-date">7:42 PM - Apr 12, 2602</p>
+                        </div>
+                        <div class="testimonial testimonial-fix">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/16.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Ava Reynolds</p>
+                                    <p class="user-tag">@SodaQueenAva</p>
+                                </div>
+                            </div>
+                            <p class="user-review">As a self-proclaimed connoisseur of Japanese confections, I can confidently say that this online store has captured the essence of Japan's candy culture. The attention to detail in curating a diverse selection of treats is commendable.</p>
+                            <p class="review-date">12:42 AM - Feb 29, 2020</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/9.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Sophia Carter</p>
+                                    <p class="user-tag">@SweetToothSophia</p>
+                                </div>
+                            </div>
+                            <p class="user-review">Great</p>
+                            <p class="review-date">3:12 AM - Oct 19, 2021</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/10.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Benjamin Reed</p>
+                                    <p class="user-tag">@BennyBites</p>
+                                </div>
+                            </div>
+                            <p class="user-review">I stumbled upon this online store and it's a treasure trove for Japanese candy enthusiasts like me. The wide range of flavors and textures, combined with prompt delivery, make it my go-to for satisfying my sweet tooth cravings.</p>
+                            <p class="review-date">2:45 PM - Nov 22, 2021</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/11.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Emma Peterson</p>
+                                    <p class="user-tag">@CandyCraverEmma</p>
+                                </div>
+                            </div>
+                            <p class="user-review">Fast delivery and delicious Japanese sodas. My taste buds are in heaven!</p>
+                            <p class="review-date">9:53 AM - Dec 28, 2026</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/12.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Oliver Collins</p>
+                                    <p class="user-tag">@OllieSweets</p>
+                                </div>
+                            </div>
+                            <p class="user-review">I stumbled upon this online store and it's a treasure trove for Japanese candy enthusiasts like me. The wide range of flavors and textures, combined with prompt delivery, make it my go-to for satisfying my sweet tooth cravings.</p>
+                            <p class="review-date">11:09 PM - Jan 02, 2005</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/13.png" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Lucas Anderson</p>
+                                    <p class="user-tag">@LuckyLucas</p>
+                                </div>
+                            </div>
+                            <p class="user-review">This online store is a candy lover's paradise. I'm impressed with their selection.</p>
+                            <p class="review-date">12:42 AM - Feb 29, 2020</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/14.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Ethan Mitchell</p>
+                                    <p class="user-tag">@EpicEaterEthan</p>
+                                </div>
+                            </div>
+                            <p class="user-review">The Japanese candies from this online store are so addictive! I can't get enough of their unique flavors. Highly recommended.</p>
+                            <p class="review-date">12:42 AM - Feb 29, 2020</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/15.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Matthew Baker</p>
+                                    <p class="user-tag">@Munchhew</p>
+                                </div>
+                            </div>
+                            <p class="user-review">I ordered some Japanese sodas, and they arrived perfectly packaged. Great service.</p>
+                            <p class="review-date">7:42 PM - Apr 12, 2602</p>
+                        </div>
+                        <div class="testimonial testimonial-fix">
+                            <div class="user">
+                                <div class="img">
+                                    <img src="src/faces/16.jpg" alt="" class="user-img">
+                                </div>
+                                <div class="user-details">
+                                    <p class="user-name">Ava Reynolds</p>
+                                    <p class="user-tag">@SodaQueenAva</p>
+                                </div>
+                            </div>
+                            <p class="user-review">As a self-proclaimed connoisseur of Japanese confections, I can confidently say that this online store has captured the essence of Japan's candy culture. The attention to detail in curating a diverse selection of treats is commendable.</p>
+                            <p class="review-date">12:42 AM - Feb 29, 2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hover_prompt">
+                    <p class="hover_text"><span>HOVER</span> to stop the scrolling</p>
+                    <img src="src/cursor.svg" class="cursor_svg">
+                </div>
+            </section>
+            <section class="section-pricing" id="box">
+                <h2 class="section-heading container">PRICING</h2>
+                <div class="pricing-container container">
+                    <h2 class="secondary-heading">Our Pricing Plans</h2>
+                    <p class="pricing-plan-desc">Discover the types of boxes and find out what they include!</p>
+                    <div class="pricing-tables">
+                        <div class="pricing-table standard">
+                            <div class="pricing-category">
+                                <div>
+                                    <p class="pricing-name">Standard Box</p>
+                                    <p class="pricing-desc">Most popular</p>
+                                </div>
+                                <p class="pricing-price"><span>$24.99</span><br> per month</p>
+                            </div>
+                            <div class="seperator-line"></div>
+                            <div class="pricing-points">
+                                <div class="pricing-point-container">
+                                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.867 8.21 8.21 0 003 2.48z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z" />
+                                      </svg>
+                                    </div>
+                                    <div class="pricing-point-desc">
+                                        <p class="pricing-point-keyword">15 snacks</p>
+                                        <p class="pricing-point-desc">New snacks each
+                                            month</p>
+                                        </div>
+                                    </div>
+                                    <div class="pricing-point-container">
+                                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+                                            </svg>
+                                            </div>
+                                        <div class="pricing-point-desc">
+                                            <p class="pricing-point-keyword">Monthly themes</p>
+                                    <p class="pricing-point-desc">Snacks that match the season</p>
+                                </div>
+                                </div>
+                                <div class="pricing-point-container">
+                                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
+                                      </svg>
+                                      </div>
+                                    <div class="pricing-point-desc">
+                                        <p class="pricing-point-keyword">Great variety</p>
+                                        <p class="pricing-point-desc">Something new in each snack to find</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="order-button">Order now!</button>
+                        </div>
+                    <div class="pricing-tables">
+                        <div class="pricing-table premium">
+                            <div class="pricing-category">
+                                <div>
+                                    <p class="pricing-name">Premium Box</p>
+                                    <p class="pricing-desc">Best value</p>
+                                </div>
+                                <p class="pricing-price"><span>$39.99</span><br> per month</p>
+                            </div>
+                            <div class="seperator-line"></div>
+                            <div class="pricing-points">
+                                <div class="pricing-point-container">
+                                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 8 1.75 12.28a2 2 0 0 0 2 1.72h4.54a2 2 0 0 0 2-1.72L18 8"></path><path d="M5 8h14"></path><path d="M7 15a6.47 6.47 0 0 1 5 0 6.47 6.47 0 0 0 5 0"></path><path d="m12 8 1-6h2"></path></svg>
+                                    </div>
+                                    <div class="pricing-point-desc">
+                                        <p class="pricing-point-keyword">20 snacks</p>
+                                        <p class="pricing-point-desc">Drink included</p>
+                                        </div>
+                                    </div>
+                                    <div class="pricing-point-container">
+                                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+                                            </svg>
+                                            </div>
+                                        <div class="pricing-point-desc">
+                                            <p class="pricing-point-keyword">Monthly themes</p>
+                                    <p class="pricing-point-desc">Snacks that match the season</p>
+                                </div>
+                                </div>
+                                <div class="pricing-point-container">
+                                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.91 8.84 8.56 2.23a1.93 1.93 0 0 0-1.81 0L3.1 4.13a2.12 2.12 0 0 0-.05 3.69l12.22 6.93a2 2 0 0 0 1.94 0L21 12.51a2.12 2.12 0 0 0-.09-3.67Z"></path><path d="m3.09 8.84 12.35-6.61a1.93 1.93 0 0 1 1.81 0l3.65 1.9a2.12 2.12 0 0 1 .1 3.69L8.73 14.75a2 2 0 0 1-1.94 0L3 12.51a2.12 2.12 0 0 1 .09-3.67Z"></path><line x1="12" x2="12" y1="22" y2="13"></line><path d="M20 13.5v3.37a2.06 2.06 0 0 1-1.11 1.83l-6 3.08a1.93 1.93 0 0 1-1.78 0l-6-3.08A2.06 2.06 0 0 1 4 16.87V13.5"></path></svg>
+                                      </div>
+                                    <div class="pricing-point-desc">
+                                        <p class="pricing-point-keyword">Customize your box</p>
+                                        <p class="pricing-point-desc">Choose what you'd like!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="order-button">Order now!</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-snackguide">
+                <h2 class="section-heading container">SNACK GUIDE</h2>
+                <div class="section-snackguide-heading-container container">
+                    <h2 class="secondary-heading">Share the joy!</h2>
+                    <p class="snackguide-heading">
+                        Japanese snacks are perfect for sharing with friends and family. Whether it's a movie night, a picnic, or a gathering, our snacks are designed to create memorable moments and foster a sense of togetherness.
+                    </p>
+                </div>
+                <div class="line"></div>
+                <div class="snackguide-guide-wrapper">
+                    <div class="snackguide-guides container">
+                        <div class="guide guide-imgleft">
+                            <div class="guide-imagebox">
+                                    <img class="guide-image" src="src/guide/pocky.png" alt="">
+                            </div>
+                            <div class="guide-text-box">
+                                <div class="guide-heading">Uncover Japanese Candy</div>
+                                <div class="guide-text">Experience the unique textures and tastes of Japanese candy. From soft and squishy mochi to delicate and melt-in-your-mouth Pocky, each candy is a delightful adventure waiting to be savored.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="guide guide-imgright">
+                            <div class="guide-text-box">
+                                <div class="guide-heading">Dive into a World of Ramune</div>
+                                <div class="guide-text">Indulge in the iconic Japanese soda, Ramune. Its unmistakable marble seal and refreshing fizz make it a favorite among soda enthusiasts. Discover the various flavors and let the nostalgia of Ramune transport you to the bustling streets of Japan.
+                                </div>
+                            </div>
+                            <div class="guide-imagebox">
+                                    <img class="guide-image" src="src/guide/ramune.png" alt="">
+                            </div>
+                        </div>
+                        <div class="guide guide-imgleft">
+                            <div class="guide-imagebox">
+                                    <img class="guide-image" src="src/guide/pikagummies.png" alt="">
+                            </div>
+                            <div class="guide-text-box">
+                                <div class="guide-heading">Anime and Character Collaborations</div>
+                                <div class="guide-text">Immerse yourself in the world of your favorite anime and characters with our exclusive collaboration snacks. From Pokemon-themed gummies to Hello Kitty marshmallows, these limited-edition treats bring your beloved characters to life.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="guide guide-imgright">
+                            <div class="guide-text-box">
+                                <div class="guide-heading">Celebrate Festivals with Snacks</div>
+                                <div class="guide-text">Join the festivities and celebrate Japan's vibrant festivals through our collection of seasonal snacks. From cherry blossom-inspired sweets to Halloween-themed treats, these snacks capture the spirit and joy of each occasion.
+                                </div>
+                            </div>
+                            <div class="guide-imagebox">
+                                    <img class="guide-image" src="src/guide/sakura.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </section>
+
+
+    <div style="height: 400px;"></div>
+    <script src="slider.js"></script>
+    <script src="nav.js"></script>
+
+</body>
+</html>
