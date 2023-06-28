@@ -5,9 +5,12 @@
   /* border: 1px solid red !important; */
 }
 
+
+
 body {
   font-family: lato;
   color: #6d6875;
+  -webkit-text-size-adjust: 100%
 }
 
 html {
@@ -223,7 +226,6 @@ html {
 }
 
 .hero-heading {
-  width: 90rem;
   font-size: 6.8rem;
   color: #e5989b;
   margin-bottom: 3.2rem;
@@ -374,12 +376,18 @@ html {
 }
 
 .top-seller {
+  background-image: -webkit-linear-gradient(
+    to bottom right,
+    #ffffff 50%,
+    #ff00000b
+  );
   background-image: linear-gradient(
     to bottom right,
     #ffffff 50%,
-    rgba(255, 0, 0, 0.044)
+    #ff00000b
   );
   display: flex;
+  flex-wrap: wrap;
   gap: 1.6rem;
   overflow: hidden;
   padding: 0.8rem;
@@ -663,6 +671,7 @@ html {
   margin-inline: auto;
   margin-bottom: 3rem;
   line-height: 1.6;
+  max-width: 65rem;
 }
 
 .line {
@@ -755,11 +764,13 @@ html {
 }
 
 .standard.pricing-table {
+  background-image: -webkit-radial-gradient(#fff 50%, #df73772d);
   background-image: radial-gradient(#fff 50%, #df73772d);
   box-shadow: 0px 10px 50px 0px rgba(173, 0, 69, 0.07);
 }
 
 .premium.pricing-table {
+  background-image: -webkit-radial-gradient(#fff 50%, #6110681e);
   background-image: radial-gradient(#fff 50%, #6110681e);
   box-shadow: 0px 10px 50px 0px hsla(295, 72%, 24%, 0.07);
 }
@@ -928,7 +939,6 @@ html {
   z-index: -1;
   transition: all 0.3s;
 }
-
 /* CTA */
 
 .section-cta {
@@ -951,7 +961,7 @@ html {
 }
 
 .cta-textbox {
-  width: 55rem;
+  max-width: 55rem;
   padding-left: 3.6rem;
 }
 
@@ -981,6 +991,7 @@ html {
   border-radius: 11px;
   border: 0;
   box-shadow: 0px 10px 20px 0px rgba(224, 118, 122, 0.203);
+  flex-wrap: wrap;
 }
 
 .subscribe-input button {
@@ -1004,7 +1015,7 @@ footer {
 
 @media (max-width: 1300px) {
   html {
-    font-size: 50%;
+    font-size: 57%;
   }
 
   .top-seller:hover > .product-price > .product-cart-icon {
@@ -1041,6 +1052,7 @@ footer {
 
 @media (max-width: 550px) {
   html {
-    font-size: 40%;
+    font-size: 45%;
   }
 }
+
